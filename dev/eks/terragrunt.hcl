@@ -23,9 +23,9 @@ inputs = {
       capacity_type  = "ON_DEMAND"
       instance_types = ["t3a.medium"]
       scaling_config = {
-        desired_size = 1
-        max_size     = 4
-        min_size     = 0
+        desired_size = 3
+        max_size     = 6
+        min_size     = 2
       }
     }
   }
